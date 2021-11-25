@@ -1,8 +1,8 @@
-# Blog - Backend
+# Blog API
 
 ## *Django REST Framework de cero a experto*
 
-_Backend_ **Blog**...
+_Backend_ **Blog API** creado con _Django REST Framework_. Este _backend_ permite administrar usuarios.
 
 Incluye:
 + **Django REST Framework**

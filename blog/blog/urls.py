@@ -25,7 +25,7 @@ schema_view = get_schema_view(
    openapi.Info(
       title="Blog API",
       default_version='v1',
-      description="Documentación de la API Blog",
+      description="Documentación del Blog API",
       terms_of_service="",
       contact=openapi.Contact(email="contact@snippets.local"),
       license=openapi.License(name="BSD License"),
