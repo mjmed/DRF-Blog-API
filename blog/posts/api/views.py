@@ -1,4 +1,5 @@
 from rest_framework.viewsets import ModelViewSet
+from django_filters.rest_framework import DjangoFilterBackend
 
 from posts.models import Post
 from posts.api.serializers import PostSerializer
@@ -12,3 +13,13 @@ class PostApiViewSet(ModelViewSet):
     queryset = Post.objects.filter(published=True)
     
     lookup_field = 'slug'
+    
+    filter_backends = [DjangoFilterBackend]
+    # filtra por el id de la categoria
+    # filterset_fields = ['category']
+    
+    # filtra por el slug de la categoria
+    # filterset_fields = ['category__slug']
+    
+    # filtra por el id y por el slug de la categoria
+    filterset_fields = ['category', 'category__slug']
