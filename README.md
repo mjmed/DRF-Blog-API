@@ -12,6 +12,7 @@ Incluye:
 - [**Django REST framework**](https://www.django-rest-framework.org/#installation)
 - [**drf-yasg**](https://drf-yasg.readthedocs.io/en/stable/): para generar la documentación de manera automatica.
 - [**Simple JWT**](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/): autenticación con Json Web Token.
+- [**Django Filter**](https://www.django-rest-framework.org/#installation)
 
 
 ### Versión: 1.0.0
