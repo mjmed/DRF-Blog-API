@@ -2,7 +2,7 @@
 
 ## *Django REST Framework de cero a experto*
 
-_Backend_ **Blog API** creado con _Django REST Framework_. Este _backend_ permite el registro y _login_ de usuarios. 
+_Backend_ **Blog API** creado con _Django REST Framework_. Este _backend_ permite el registro y _login_ de usuarios. La creación, lectura, actualización y eliminación de Categorías, Posts y de Comentarios. También inlcuye permisos de acceso y de acciones sobre los cruds.
 
 Incluye:
 + **Django REST Framework**
